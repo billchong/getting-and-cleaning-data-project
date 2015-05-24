@@ -57,7 +57,7 @@ Modify the column names of table 5 to have more descriptive names using gsub.
 
 ### Step 5 - Create another independent tidy data set with the average of each variable for each activity and subject
 
-Create table 6 from table 5 by calculating the means for each activity and subject. The following excerpt from RStudio lists the variables are  table 6
+Create table 6 from table 5 by calculating the means for each activity and subject. The following excerpt from RStudio lists the 82 variables in table 6
 
  [1] "ActivityID"                           "Activity"                            
  [3] "SubjectID"                            "timeBodyAcc-Mean()-X"                
