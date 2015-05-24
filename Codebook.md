@@ -28,14 +28,14 @@ For each record it is provided:
 
 Input the UCI HAR Data Set from (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and read the following files
 
--features.txt
--activity_labels.txt
--subject_train.txt
--x_train.txt
--y_train.txt
--subject_test.txt
--x_test.txt
--y_test.txt
+- features.txt
+- activity_labels.txt
+- subject_train.txt
+- x_train.txt
+- y_train.txt
+- subject_test.txt
+- x_test.txt
+- y_test.txt
 
 rename the columns of y_train.txt, y_test.txt, activity_labels.txt and subject_train.txt to use the descriptive names of "ActivityID", "Activity", "SubjectID" moving forward
 
