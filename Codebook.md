@@ -41,7 +41,7 @@ rename the columns of y_train.txt, y_test.txt, activity_labels.txt and subject_t
 
 - create table 1 using y_train, subject_train, x_train by column binding
 - create table 2 using y_test, subject_test, x_test by column binding
-- create an integrated table 3 by row binding table 1 and table 2
+- create table 3 by row binding table 1 and table 2 to integrate the data
 
 ### Step 2 - Extract only the measurements on the mean and standard deviation for each measurement
 
