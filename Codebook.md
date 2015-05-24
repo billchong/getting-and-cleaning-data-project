@@ -59,7 +59,7 @@ Modify the column names of table 5 to have more descriptive names using gsub.
 
 Create table 6 from table 5 by calculating the means for each activity and subject. The following excerpt from RStudio lists the 82 variables in table 6
 
- [1] "ActivityID"                           &nsp "Activity"                            
+ [1] "ActivityID"                           "Activity"                            
  [3] "SubjectID"                            "timeBodyAcc-Mean()-X"                
  [5] "timeBodyAcc-Mean()-Y"                 "timeBodyAcc-Mean()-Z"                
  [7] "timeBodyAcc-StdDev()-X"               "timeBodyAcc-StdDev()-Y"              
