@@ -39,9 +39,9 @@ Input the UCI HAR Data Set from (http://archive.ics.uci.edu/ml/datasets/Human+Ac
 
 rename the columns of y_train.txt, y_test.txt, activity_labels.txt and subject_train.txt to use the descriptive names of "ActivityID", "Activity", "SubjectID" moving forward.
 
-create table 1 using y_train, subject_train, x_train by column binding
-create table 2 using y_test, subject_test, x_test by column binding
-create an integrated table 3 by row binding table 1 and table 2
+- create table 1 using y_train, subject_train, x_train by column binding
+- create table 2 using y_test, subject_test, x_test by column binding
+- create an integrated table 3 by row binding table 1 and table 2
 
 ### Step 2 - Extract only the measurements on the mean and standard deviation for each measurement
 
