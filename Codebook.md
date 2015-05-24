@@ -49,12 +49,12 @@ Create table 4 by subsetting table 3 by selecting only column names which includ
 
 ### Step 3 - Use descriptive activity names to name the activities in the data set
 
-Merge table 4 with activity_labels.txt to create table 5.
+Merge table 4 with "activity_labels.txt" to create table 5 with descriptive activity names.
 
 ### Step 4 - Appropriately label the data set with descriptive variable names. 
 
-Rename columns of table 5 with more descriptive names using gsub and reassigning back to table 5.
+Modify the column names of table 5 to have more descriptive names using gsub.
 
 ### Step 5 - Create another independent tidy data set with the average of each variable for each activity and subject
 
-Create table 6 from table 5 by calculating the means for each activity and subject
+Create table 6 from table 5 by calculating the means for each activity and subject.
