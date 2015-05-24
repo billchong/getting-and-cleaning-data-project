@@ -49,7 +49,7 @@ Create table 4 by subsetting table 3 by selecting only column names which includ
 
 ### Step 3 - Use descriptive activity names to name the activities in the data set
 
-Merge table 4 with "activity_labels.txt" to create table 5 with descriptive activity names.
+Merge table 4 with "activity_labels.txt" to create table 5 with descriptive activity names and additonal activity ID.
 
 ### Step 4 - Appropriately label the data set with descriptive variable names. 
 
@@ -59,7 +59,7 @@ Modify the column names of table 5 to have more descriptive names using gsub.
 
 Create table 6 from table 5 by calculating the means for each activity and subject. The following excerpt from RStudio lists the 82 variables in table 6
 
- [1] "ActivityID"                           "Activity"                            
+ [1] "ActivityID"                           &nsp "Activity"                            
  [3] "SubjectID"                            "timeBodyAcc-Mean()-X"                
  [5] "timeBodyAcc-Mean()-Y"                 "timeBodyAcc-Mean()-Z"                
  [7] "timeBodyAcc-StdDev()-X"               "timeBodyAcc-StdDev()-Y"              
